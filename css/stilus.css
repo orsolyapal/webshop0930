@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+html {
+    font-size: 14px;
+}
+
+body {
+   font-family: Arial, Helvetica, sans-serif; 
+}
+
+.arucikk {
+    width: 250px;
+    margin: 0 auto;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: #0d9ac7
+}
+
+h2{
+    padding: 10px 0;
+    font-weight: normal;
+}
+
+p {
+    font-weight: bold;
+}
+
+button {
+    background-color: #0d9ac7;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    margin-top: 10px;
+    cursor:pointer;
+}
+
+.kep{
+    padding: 10px;
+    background: #fff;
+    position: relative;
+}
+
+.kep span {
+    position: absolute;
+}
+
+.kep .icon-star {
+    top: 0;
+}
