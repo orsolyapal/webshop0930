@@ -12,9 +12,22 @@ body {
    font-family: Arial, Helvetica, sans-serif; 
 }
 
+header {
+    background-color: #0d9ac7;
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 10;
+}
+
 .arucikk {
-    width: 250px;
-    margin: 0 auto;
+    width: 200px;
+    margin: 100px auto;
     background-color: #f4f4f4;
     border: 1px solid #ddd;
     padding: 10px;
@@ -55,5 +68,17 @@ button {
 }
 
 .kep .icon-star {
-    top: 0;
+    color: orange;
+    font-size: 1.6rem;
+    top: 5px;
+    left: 10px;
+}
+
+.akcio {
+    bottom: 10px;
+    right: 10px;
+    background-color: green;
+    color: white;
+    font-size: 1.2rem;
+    padding: 5px 10px;
 }
